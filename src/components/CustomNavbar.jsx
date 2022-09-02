@@ -7,7 +7,7 @@ import Logo from '../assets/logo.png'
 const CustomNavbar = () => {
 
 return (
-    <Navbar  style={{ backgroundColor: "black", color: "white" }} >
+    <Navbar  style={{ backgroundColor: "black"}} >
     <Container>
     <Navbar.Brand >
 

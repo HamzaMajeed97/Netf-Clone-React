@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
       <CustomNavbar />
-<Gallery1 />
+<Gallery1  movieSearch="harry%20potter" />
 <Gallery2 />
 <Gallery3 />
-      <CustomFooter />
+     
     </div>
   );
 }
