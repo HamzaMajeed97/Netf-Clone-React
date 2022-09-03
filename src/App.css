@@ -31,6 +31,9 @@
 }
 
 
-Nav.Link{
-  color: white;
+.poster:hover{
+
+cursor: pointer;
+transform: scale(1.1);
+
 }

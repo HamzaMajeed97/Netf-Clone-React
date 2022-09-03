@@ -30,10 +30,10 @@ class Gallery1 extends Component {
   render() {
     return (
       <div>
-        <h2 className="title ml-4">{this.props.title}</h2>
-                <Container fluid className='movieslist'>
+        <h2 className="title">{this.props.title}</h2>
+                <Container fluid className=' overlay d-flex align-items-center justify-content-center'>
                     {this.state.movieslist.map((f) => (
-                        <Col key={f.imdbID}>
+                        <Col className='poster'key={f.imdbID}>
                             <Movie movie={f} />
                         </Col>
                     ))}
